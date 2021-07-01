@@ -150,7 +150,7 @@ main article:nth-child(5) ul:first-child li, main article:nth-child(5) ul:nth-ch
     margin-bottom: 10px;
 }
 main article:nth-child(5) ul:nth-child(2)  {
-    width:30%;
+    width:33%;
     /* border: indigo 3px solid; */
     display: inline-block;
     position: absolute;
@@ -255,7 +255,7 @@ article hr:first-of-type{
 
 
 #footerart{
-    margin-top: 40px;
+    margin-top: 60px;
     /* border: crimson 3px solid; */
     height: 200px;
     width: 100%;
@@ -278,6 +278,7 @@ footer article:nth-child(4) img{
     margin-bottom: 20px;
 }
 footer p{
-    border: crimson 3px solid;
+    /* border: crimson 3px solid; */
    color:  #83817a;
+   
 }

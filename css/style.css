@@ -1,12 +1,13 @@
 body{
-    /* border: green 3px solid; */
+    border: black 5px solid;
     margin-top: 30px;
     /* margin-left: 300px;
     margin-right: 300px; */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     width:70%;
     position:relative;
     left:15%;
+
     
 }
 header{
@@ -75,9 +76,11 @@ h1{
 }
 
 main{
-    border: blue 3px solid;
-    position: relative;
-    margin-bottom: 15px;
+    border: blue 4px solid;
+    /* position: relative;
+  bottom: 0;
+    height: 2330px; */
+  
 }
 main article:nth-child(2) p{
     display: inline-block;
@@ -112,7 +115,7 @@ main article:nth-child(4) p {
 main article:nth-child(5){
     border:black 3px solid;
     /* background-image: url('https://raw.githubusercontent.com/LTUC/amman-irbid-201d31/main/class-10/lab-a/lab-assets/list-bg.png'); */
-    height: 420px;
+    height: 450px;
  
     position: relative;
     top:0;
@@ -162,52 +165,119 @@ main article:nth-child(5) ul:nth-child(2)  {
     margin:0;
 }
 
-main article:nth-child(5) ul:first-child, 
-main article:nth-child(5) ul:last-child{
-    /* border: red 2px solid; */
+/***************** footer part  *********************/
 
-}
 footer{
-    border: green 3px solid;
-    position: relative;
-    bottom: 0;
+    /* border: purple 7px solid; */
+     position: relative;
+
+    bottom: 0; 
     height: 300px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    width: 100%;
+    margin:0;
 }
+#hrl2{ 
+    width:100%;
+    margin-bottom: 20px;
+} 
+
 
 footer ul{
-
 display: inline-block;
-
-
+position: relative;
+top:0;
+margin:0;
+border:red 2px solid;
 }
 footer ul ul  {
-border:saddlebrown solid 3px;
+border:rgb(23, 5, 75) solid 4px;
+width:65%;
+position: relative;
+left:8%;
+padding-left: 20px;
 }
 
 footer ul:first-child li{
    
    display: inline-block;
-   border: coral 3px solid;
+   border: rgb(240, 6, 169) 1px solid;
+  
 }
+footer ul:first-child li li:nth-child(2){
+    border: rgb(6, 240, 228) 3px solid; 
+    /* padding-top: 10px; */
+    position: relative;
+    top: 0;
+} 
 
-footer ul li:first-child img{
-    /* border: rgb(112, 5, 5) 3px solid; */
-    /* width: 10%; */
-}
-
+ 
 #li1{
     border: rgb(112, 5, 5) 3px solid;
-    width:8%;
+    /* width:10%; */
+}
+
+#footimg{
+    position: absolute;
+    /* top:10px; */
 }
 #li2{
-    width:65%;
+ 
+    font-size: 20px;
+    border: rgb(67, 240, 76) 3px solid;
+}
+
+ #button{
+    /* border: red 3px solid; */
+  height: 70px;
+  font-size:25px;
+  padding: 10px;
+  background-color: rgb(110, 28, 13);
+  color:white;
+  position: absolute;
+   right:0; 
+   width: 23%;
+} 
+h3{
     font-size: 25px;
+   
+}
+article hr:first-of-type{
+   /* position: relative;
+   top:0; */
+   /* border: rgb(112, 5, 5) 3px solid; */
+   width: 48%;
+   position:absolute;
+   left:0;
+   display: inline-block;
+ 
+}
+
+
+#footerart{
+    margin-top: 40px;
+    border: crimson 3px solid;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+article hr:last-of-type{
+    /* border: rgb(64, 5, 112) 3px solid; */
+    width: 48%;
+    position: absolute;
+    right: 0;
+    display: inline-block;
   
 }
-#li3{
-    width:20%;
+
+footer article:nth-child(4) img{
+    border: crimson 3px solid;
+    position: relative;
+    left:48%;
+    top:-7px;
+    margin-bottom: 20px;
 }
-footer li button{
-  
+footer p{
+    border: crimson 3px solid;
+
 }

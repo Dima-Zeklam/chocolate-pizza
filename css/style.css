@@ -114,12 +114,9 @@ main article:nth-child(4) p {
 }
 main article:nth-child(5){
     /* border:black 3px solid; */
-    /* background-image: url('https://raw.githubusercontent.com/LTUC/amman-irbid-201d31/main/class-10/lab-a/lab-assets/list-bg.png'); */
     height: 450px;
- 
     position: relative;
     top:0;
-    /* left: 200px; */
 }
 
 main article:nth-child(5) img{
@@ -205,26 +202,23 @@ footer ul:first-child li{
   
 }
 footer ul:first-child li li:nth-child(2){
-    /* border: rgb(6, 240, 228) 3px solid;  */
-    /* padding-top: 10px; */
-    position: relative;
+  
+      /* border: rgb(240, 6, 169) 1px solid; */
+      position: relative;
     top: 0;
 } 
-
- 
-#li1{
-    /* border: rgb(112, 5, 5) 3px solid; */
-    /* width:10%; */
-}
 
 #footimg{
     position: absolute;
     /* top:10px; */
 }
+
 #li2{
  
     font-size: 20px;
     /* border: rgb(67, 240, 76) 3px solid; */
+    position: relative;
+    top: 0;
 }
 
  #button{
@@ -238,6 +232,9 @@ footer ul:first-child li li:nth-child(2){
    right:0; 
    width: 23%;
 } 
+#button:hover{
+    color: darkgoldenrod;
+}
 h3{
     font-size: 25px;
    
@@ -280,5 +277,6 @@ footer article:nth-child(4) img{
 footer p{
     /* border: crimson 3px solid; */
    color:  #83817a;
+   
    
 }

@@ -53,22 +53,22 @@
 
 <article>
     <img src="img/list-bg.png" >
-    <form>
+    <form id="myform">
     <ul>
- <li><input type="checkbox" name="v1" ><label > 11/2 cups milk</label></li>
- <li><input type="checkbox" name="v2" ><label > 1/2 cup mascarpone</label></li>
- <li><input type="checkbox" name="v3" ><label > 1/2 tsp pink salt</label></li>
- <li><input type="checkbox" name="v4" ><label > 1 lb Black Mission Figs</label></li>
- <li><input type="checkbox" name="v5" ><label > 1/2 cup brown sugar</label></li>
- <li><input type="checkbox" name="v6" ><label > 2-4 tbsp water</label></li>
+ <li><input type="checkbox" name="v1" id="v1" onchange="changestyle('v1','label1')" /><em id="label1" > 11/2 cups milk</em></li>
+ <li><input type="checkbox" name="v2" id="v2"onchange="changestyle('v2','label2')" ><em id="label2" > 1/2 cup mascarpone</em></li>
+ <li><input type="checkbox" name="v3"  id="v3"onchange="changestyle('v3','label3')" ><em id="label3" > 1/2 tsp pink salt</em></li>
+ <li><input type="checkbox" name="v4"  id="v4" onchange="changestyle('v4','label4')"><em id="label4" > 1 lb Black Mission Figs</em></li>
+ <li><input type="checkbox" name="v5"  id="v5"onchange="changestyle('v5','label5')"><em id="label5" > 1/2 cup brown sugar</em></li>
+ <li><input type="checkbox" name="v6" id="v6" onchange="changestyle('v6','label6')" ><em id="label6" > 2-4 tbsp water</em></li>
  </ul>
 <ul>
- <li><input type="checkbox" name="v7" ><label >11/2 cups heavy cream</label></li>
- <li><input type="checkbox" name="v8" checked><label style="text-decoration:line-through ;"> 4/3 granulated sugar</label></li>
- <li><input type="checkbox" name="v9" checked><label style="text-decoration:line-through ;"> 2 egg yolks</label></li>
- <li><input type="checkbox" name="v10" ><label >1 lemon, jucied</label></li>
- <li><input type="checkbox" name="v11" ><label >2 tbsp butter</label></li>
- <li><input type="checkbox" name="v12" ><label >1 cup honey rosted pecans, roughly chopped</label></li>
+ <li><input type="checkbox" name="v7" id="v7" onchange="changestyle('v7','label7')" ><em id="label7" >11/2 cups heavy cream</em></li>
+ <li><input type="checkbox" name="v8" id="v8" onchange="changestyle('v8','label8')" checked><em id="label8" style="text-decoration:line-through ;"> 4/3 granulated sugar</em></li>
+ <li><input type="checkbox" name="v9" id="v9" onchange="changestyle('v9','label9')" checked><em id="label9" style="text-decoration:line-through ;"> 2 egg yolks</em></li>
+ <li><input type="checkbox" name="v10" id="v10" onchange="changestyle('v10','label10')"><em id="label10" >1 lemon, jucied</em></li>
+ <li><input type="checkbox" name="v11" id="v11" onchange="changestyle('v11','label11')"><em id="label11" >2 tbsp butter</em></li>
+ <li><input type="checkbox" name="v12"id="v12" onchange="changestyle('v12','label12')" ><em id="label12" >1 cup honey rosted pecans, roughly chopped</em></li>
       
         </ul>
     </form>
@@ -85,7 +85,7 @@
         </article>
    
     <ul>
-        <li id="li1"><img src="img/van-pic.png" alt="footer_img" id="footimg"></li>
+        <li id><img src="img/van-pic.png" alt="footer_img" id="footimg"></li>
         <li id="li2"><ul>
             <li><h3>Vanessa Stevenson</h3></li>
             <li><br>Food enthusiast, photography fan, Add a pinch of raw foodsim ans that's preety much who i am. </li>
@@ -99,6 +99,6 @@
 <p  style="text-align: center; "> Delicous &copy; 2013 . All Rights Reserved <br> Proudly Publish With Ghost</p>
        </article>
 </footer>
-      <!-- <script src="js/app.js"></script> -->
+      <script src="js/app.js"></script>
 </body>
 </html>
